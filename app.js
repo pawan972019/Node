@@ -1,5 +1,5 @@
 const express = require('express')
-const router = require('./routers/student')
+const router = require('./restfulapi/src/routers/student')
 
 const app = express()
 const port = process.env.PORT || 3000
